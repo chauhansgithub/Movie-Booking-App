@@ -1,0 +1,14 @@
+.flex-container {
+     display: flex;
+     flex-wrap: nowrap;
+}
+.left{
+     margin: 16px;
+     flex: 76%;
+}
+
+.right {
+     margin: 16px;
+     flex: 24%;
+}
+   

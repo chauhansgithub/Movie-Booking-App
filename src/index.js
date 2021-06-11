@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './common/Header/Header'
+import Home from './screens/Home/Home'
 
 ReactDOM.render(
   <React.StrictMode>
   <div>
-    <Header />
+    <Home />
 
   </div>
   </React.StrictMode>,

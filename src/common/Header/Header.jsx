@@ -5,10 +5,15 @@ import './Header.css';
 class Header extends React.Component{
      render(){
           return (
-               <div className='header'>
-                    <ReactLogo className='movielogo'/>
-
+               <div>
+                    <div className='header'>
+                         <ReactLogo className='movielogo'/>                    
+                    </div>
+                    <div className='upcoming'>
+                         <span>Upcoming Movies</span>
+                    </div>                    
                </div>
+               
           ) 
      }
 }
