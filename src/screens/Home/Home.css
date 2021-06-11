@@ -1,14 +1,22 @@
-.flex-container {
-     display: flex;
-     flex-wrap: nowrap;
-}
-.left{
-     margin: 16px;
-     flex: 76%;
-}
-
-.right {
-     margin: 16px;
-     flex: 24%;
+.upcoming-movies-header {
+     background-color: #ff9999;
+     padding: 8px;
+     text-align: center;
+     font-size: 1rem;
 }
    
+.flex-container {
+     display: flex;
+}
+   
+.left, .right {
+     margin: 16px;
+}
+   
+.left {
+     flex-basis: 76%;
+}
+   
+.right {
+     flex-basis: 24%;
+}

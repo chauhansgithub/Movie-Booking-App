@@ -114,7 +114,9 @@ class Home extends React.Component {
     return (
      <div>
           <Header />
-        
+          <div className="upcoming-movies-header">
+               <span>Upcoming Movies</span>
+          </div>
           <UpComingMovies movies={moviesData} />
           <div className="flex-container">
                <div className="left">
